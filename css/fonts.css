@@ -1,0 +1,23 @@
+/* Webfont: Open Sans Regular */@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Open Sans Semibold */@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../fonts/open-sans/OpenSans-Semibold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Open Sans Bold */@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
