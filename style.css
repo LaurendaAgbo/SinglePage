@@ -225,7 +225,64 @@ ul {
 
 /***** DEBUT OBLIQUE1   ****/
 
+#oblique1, #sec2 {
+	background-color: #5fc18b;
+	padding: 2rem 0;
+	color: #fff;
+}
 
+#oblique1Content {
+	margin: 0 auto;
+	width:90%;
+}
+
+#oblique1 img, #oblique2 img {
+	width: 100%;
+}
+
+#oblique1 h3, #oblique2 h3 {
+	font-family: "Open Sans Semibold";
+	font-size: 22px;
+}
+
+#oblique1 p, #oblique2 p {
+	font-size: 12px;
+	padding: .5rem 0;
+}
+
+@media screen and (min-width: 578px) {
+	#oblique1Content {
+		width: 80%;
+	}
+	
+	#oblique1 img {
+		width: auto;
+	}
+	
+	#oblique1 h3, #oblique2 h3 {
+		font-size: 39px;
+	}
+
+	#oblique1 p, #oblique2 p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 768px) {	
+	#oblique1, #sec2 {
+		padding: 5rem 0;
+	}
+	
+	#oblique1Content {
+		width: 70%!important;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#oblique1Content {
+		width: 61%!important;
+	}	
+}
 
 /****	FIN  OBLIQUE1   ****/
 
