@@ -322,7 +322,73 @@ ul {
 
 /***** DEBUT CONTACT   ****/
 
+#formulaire {
+	position: absolute;
+    left: 12%;
+	margin-top: -170%;
+    padding: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.85);
+}
 
+#formulaire .form-control {
+	border: 1px solid #d8d8d8;
+	border-radius: 0;
+	color: rgba(76, 80, 93, 0.5);
+	font-size: 14px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#checkIcon {
+	color: #fff;
+	background-color: #43a06d;
+	border-radius: 3rem;
+    padding: .3rem;
+}
+
+@media screen and (min-width: 360px) and (max-width: 577px) {
+	#formulaire {
+		left: 20%;
+		margin-top: -110%;
+		padding: 2rem 3rem;
+	}	
+}
+
+@media screen and (min-width: 578px) {
+	#formulaire {
+		padding: 4rem 6.5rem 3rem;
+	}
+	
+	#formulaire .form-control {
+		width: 100%;
+	}
+	
+	#checkIcon {
+		padding: 1rem;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+	#formulaire {
+		left: 12%;
+		margin-top: -100%;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#formulaire {
+		left: 25%;
+		margin-top: -70%;
+	}	
+}
+
+@media screen and (min-width: 992px) {
+	#formulaire {
+		left: 35%;
+		margin-top: -45%;
+	}	
+}
 
 /****	FIN  CONTACT   ****/
 
