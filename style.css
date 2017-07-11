@@ -394,6 +394,11 @@ ul {
 
 /***** DEBUT FOOTER   ****/
 
-
+#footer {
+	background-color: #43a06d;
+	color: #fff;
+	font-size: 14px;
+	padding: .5rem 0;
+}
 
 /****	FIN  FOOTER   ****/
