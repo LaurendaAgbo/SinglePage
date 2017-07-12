@@ -103,74 +103,6 @@ ul {
     border-radius: 0.15rem;
 }
 
-@media screen and (min-width: 578px) {
-	#headerText {
-		padding: 72px 0 288px;
-	}
-	
-	#callToForm {
-		padding: 2rem 2rem 1.5rem;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {	
-	#headerText {
-		min-height: 360px;
-	}
-	
-	#slidetext1 {
-		font-size: 30px;
-	}
-	
-	#headerText img {
-		width: 40%;
-	}
-	
-	#callTo {
-		width: 65%;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {	
-	#slidetext1 {
-		font-size: 40px;
-	}
-	
-	#headerText img {
-		width: 30%;
-	}
-	
-	#callTo {
-		width: 50%;
-	}
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {	
-	#callTo {
-		width: 36%!important;
-	}
-}
-
-@media screen and (min-width: 992px) {	
-	#headerText {
-		min-height: 650px;
-	}
-
-	#slidetext1 {
-		font-size: 50px;
-		line-height: 1.2;
-	}
-	
-	#headerText img {
-		width: auto;
-	}
-	
-	#callTo {
-		width: 30%;
-		top: -230px;
-	}
-}
-
 /****	FIN  HEADER   ****/
 
 /***** DEBUT BOXES   ****/
@@ -193,32 +125,6 @@ ul {
 	color: #4f4e4e;
     font-size: 14px;
     padding: 0;
-}
-
-@media screen and (min-width: 578px) {	
-	#boxes {
-		padding: 2rem 0 5rem;
-	}
-	
-	.boxImages {
-		float: right;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {	
-	.boxImages {
-		width: 70%;
-	}
-	
-	#boxes h4 {
-		font-size: 20px;
-	}
-}
-
-@media screen and (min-width: 992px) {	
-	.boxText {
-		padding: 0 3rem 0 0;
-	}
 }
 
 /****	FIN  BOXES   ****/
@@ -250,40 +156,6 @@ ul {
 	padding: .5rem 0;
 }
 
-@media screen and (min-width: 578px) {
-	#oblique1Content {
-		width: 80%;
-	}
-	
-	#oblique1 img {
-		width: auto;
-	}
-	
-	#oblique1 h3, #oblique2 h3 {
-		font-size: 39px;
-	}
-
-	#oblique1 p, #oblique2 p {
-		font-size: 14px;
-	}
-}
-
-@media screen and (min-width: 768px) {	
-	#oblique1, #sec2 {
-		padding: 5rem 0;
-	}
-	
-	#oblique1Content {
-		width: 70%!important;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	#oblique1Content {
-		width: 61%!important;
-	}	
-}
-
 /****	FIN  OBLIQUE1   ****/
 
 /***** DEBUT OBLIQUE2   ****/
@@ -310,12 +182,6 @@ ul {
 	font-size: 26px;
 	padding: 0.5rem 2rem;
 	box-shadow: 0 0 0 transparent;
-}
-
-@media screen and (min-width: 992px) {
-	#sec2 {
-		width: 72%;
-	}	
 }
 
 /****	FIN  OBLIQUE2   ****/
@@ -347,6 +213,21 @@ ul {
     padding: .3rem;
 }
 
+/****	FIN  CONTACT   ****/
+
+/***** DEBUT FOOTER   ****/
+
+#footer {
+	background-color: #43a06d;
+	color: #fff;
+	font-size: 14px;
+	padding: .5rem 0;
+}
+
+/****	FIN  FOOTER   ****/
+
+/****   DEBUT MEDIA QUERIES    ****/
+
 @media screen and (min-width: 360px) and (max-width: 577px) {
 	#formulaire {
 		left: 20%;
@@ -356,6 +237,38 @@ ul {
 }
 
 @media screen and (min-width: 578px) {
+	#headerText {
+		padding: 72px 0 288px;
+	}
+	
+	#callToForm {
+		padding: 2rem 2rem 1.5rem;
+	}
+	
+	#boxes {
+		padding: 2rem 0 5rem;
+	}
+	
+	.boxImages {
+		float: right;
+	}
+	
+	#oblique1Content {
+		width: 80%;
+	}
+	
+	#oblique1 img {
+		width: auto;
+	}
+	
+	#oblique1 h3, #oblique2 h3 {
+		font-size: 39px;
+	}
+
+	#oblique1 p, #oblique2 p {
+		font-size: 14px;
+	}
+	
 	#formulaire {
 		padding: 4rem 6.5rem 3rem;
 	}
@@ -369,36 +282,107 @@ ul {
 	}
 }
 
-@media screen and (min-width: 578px) and (max-width: 768px) {
+@media screen and (min-width: 578px) and (max-width: 767px) {	
+	#headerText {
+		min-height: 360px;
+	}
+	
+	#slidetext1 {
+		font-size: 30px;
+	}
+	
+	#headerText img {
+		width: 40%;
+	}
+	
+	#callTo {
+		width: 65%;
+	}
+	
+	.boxImages {
+		width: 70%;
+	}
+	
+	#boxes h4 {
+		font-size: 20px;
+	}
+	
 	#formulaire {
 		left: 12%;
 		margin-top: -100%;
 	}	
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {	
+	#slidetext1 {
+		font-size: 40px;
+	}
+	
+	#headerText img {
+		width: 30%;
+	}
+	
+	#callTo {
+		width: 50%;
+	}
+	
 	#formulaire {
 		left: 25%;
 		margin-top: -70%;
 	}	
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {	
+	#oblique1, #sec2 {
+		padding: 5rem 0;
+	}
+	
+	#oblique1Content {
+		width: 70%!important;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {	
+	#callTo {
+		width: 36%!important;
+	}
+}
+
+@media screen and (min-width: 992px) {	
+	#headerText {
+		min-height: 650px;
+	}
+
+	#slidetext1 {
+		font-size: 50px;
+		line-height: 1.2;
+	}
+	
+	#headerText img {
+		width: auto;
+	}
+	
+	#callTo {
+		width: 30%;
+		top: -230px;
+	}
+	
+	.boxText {
+		padding: 0 3rem 0 0;
+	}
+	
+	#oblique1Content {
+		width: 61%!important;
+	}
+	
+	#sec2 {
+		width: 72%;
+	}
+	
 	#formulaire {
 		left: 35%;
 		margin-top: -45%;
 	}	
 }
 
-/****	FIN  CONTACT   ****/
-
-/***** DEBUT FOOTER   ****/
-
-#footer {
-	background-color: #43a06d;
-	color: #fff;
-	font-size: 14px;
-	padding: .5rem 0;
-}
-
-/****	FIN  FOOTER   ****/
+/****   FIN MEDIA QUERIES    ****/
